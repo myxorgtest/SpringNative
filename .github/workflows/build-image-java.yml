@@ -31,5 +31,5 @@ jobs:
       
       - name: Push to Registry
         run: |
-          docker tag docker.io/library/rest-service-complete:0.0.1-SNAPSHOT ghcr.io/myxorgtest/rest-service-complete:latest
-          docker push ghcr.io/myxorgtest/rest-service-complete:latest
+          docker tag docker.io/library/rest-service-complete:0.0.1-SNAPSHOT ghcr.io/c3s4rfred/rest-service-complete:latest
+          docker push ghcr.io/c3s4rfred/rest-service-complete:latest
